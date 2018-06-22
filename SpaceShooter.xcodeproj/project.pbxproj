@@ -18,6 +18,8 @@
 		4A74912020DC06DA002B1D2C /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A74911E20DC06DA002B1D2C /* torpedo.mp3 */; };
 		4A74912120DC06DA002B1D2C /* explosion.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4A74911F20DC06DA002B1D2C /* explosion.mp3 */; };
 		4A74912720DC0837002B1D2C /* MyParticle.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A74912620DC0837002B1D2C /* MyParticle.sks */; };
+		4A74912A20DC09DD002B1D2C /* Starfield.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A74912820DC09DD002B1D2C /* Starfield.sks */; };
+		4A74912B20DC09DD002B1D2C /* Explosion.sks in Resources */ = {isa = PBXBuildFile; fileRef = 4A74912920DC09DD002B1D2C /* Explosion.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		4A74911E20DC06DA002B1D2C /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
 		4A74911F20DC06DA002B1D2C /* explosion.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = explosion.mp3; sourceTree = "<group>"; };
 		4A74912620DC0837002B1D2C /* MyParticle.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = MyParticle.sks; sourceTree = "<group>"; };
+		4A74912820DC09DD002B1D2C /* Starfield.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Starfield.sks; sourceTree = "<group>"; };
+		4A74912920DC09DD002B1D2C /* Explosion.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Explosion.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +77,8 @@
 				4A74910E20DC00F0002B1D2C /* GameViewController.swift */,
 				4A74911020DC00F0002B1D2C /* Main.storyboard */,
 				4A74911F20DC06DA002B1D2C /* explosion.mp3 */,
+				4A74912920DC09DD002B1D2C /* Explosion.sks */,
+				4A74912820DC09DD002B1D2C /* Starfield.sks */,
 				4A74911E20DC06DA002B1D2C /* torpedo.mp3 */,
 				4A74911320DC00F3002B1D2C /* Assets.xcassets */,
 				4A74911520DC00F3002B1D2C /* LaunchScreen.storyboard */,
@@ -146,6 +152,8 @@
 				4A74911720DC00F3002B1D2C /* LaunchScreen.storyboard in Resources */,
 				4A74912120DC06DA002B1D2C /* explosion.mp3 in Resources */,
 				4A74912020DC06DA002B1D2C /* torpedo.mp3 in Resources */,
+				4A74912A20DC09DD002B1D2C /* Starfield.sks in Resources */,
+				4A74912B20DC09DD002B1D2C /* Explosion.sks in Resources */,
 				4A74910B20DC00F0002B1D2C /* Actions.sks in Resources */,
 				4A74912720DC0837002B1D2C /* MyParticle.sks in Resources */,
 			);
