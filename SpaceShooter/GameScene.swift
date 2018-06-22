@@ -17,6 +17,8 @@ class GameScene: SKScene {
     
     override func didMove(to view: SKView) {
         
+        //starfield init
+        
         starfield = SKEmitterNode(fileNamed: "Starfield")
         starfield.position = CGPoint(x: 0, y: 1472)
         starfield.advanceSimulationTime(10)
@@ -24,10 +26,10 @@ class GameScene: SKScene {
         
         starfield.zPosition = -1
         
+        //shuttle init
+        
         player = SKSpriteNode(imageNamed: "shuttle")
-        
-        player.position = CGPoint(x: self.frame.size.width/2 , y: player.size.height/2 + 20)
-        
+        player.position = CGPoint ( x: self.frame.size.width / 2 + (-375) , y: player.size.height / 10 + (-600))
         self.addChild(player)
         
     }
