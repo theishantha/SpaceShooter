@@ -13,7 +13,7 @@ class GameScene: SKScene {
     
     
     var starfield:SKEmitterNode!
-    var player:SKEmitterNode!
+    var player:SKSpriteNode!
     
     override func didMove(to view: SKView) {
         
@@ -23,6 +23,12 @@ class GameScene: SKScene {
         self.addChild(starfield)
         
         starfield.zPosition = -1
+        
+        player = SKSpriteNode(imageNamed: "shuttle")
+        
+        player.position = CGPoint(x: self.frame.size.width/2 , y: player.size.height/2 + 20)
+        
+        self.addChild(player)
         
     }
     
