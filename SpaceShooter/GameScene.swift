@@ -9,11 +9,16 @@
 import SpriteKit
 import GameplayKit
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
     
     
     var starfield:SKEmitterNode!
     var player:SKSpriteNode!
+    
+    var scoreLabel:SKLabelNode!
+    var score:Int = 0 {
+        
+    }
     
     override func didMove(to view: SKView) {
         
@@ -29,8 +34,14 @@ class GameScene: SKScene {
         //shuttle init
         
         player = SKSpriteNode(imageNamed: "shuttle")
-        player.position = CGPoint ( x: self.frame.size.width / 2 + (-375) , y: player.size.height / 10 + (-600))
+//      player.position = CGPoint ( x: self.frame.size.width / 2 + (-375) , y: player.size.height / 10 + (-600))
+        player.position = CGPoint ( x: 0 , y: -550 )
+        
         self.addChild(player)
+        
+        self.physicsWorld.gravity = CGVector(dx: 0, dy: 0)
+        self.physicsWorld.contactDelegate = self
+        
         
     }
     
