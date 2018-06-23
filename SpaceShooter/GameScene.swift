@@ -17,7 +17,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
     
     var scoreLabel:SKLabelNode!
     var score:Int = 0 {
-        
+        didSet {
+            scoreLabel.text = " Score: { score }"
+        }
     }
     
     override func didMove(to view: SKView) {
@@ -41,6 +43,8 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         self.physicsWorld.gravity = CGVector(dx: 0, dy: 0)
         self.physicsWorld.contactDelegate = self
+        
+        scoreLabel = SKLabelNode(text: "Score: 0")
         
         
     }
