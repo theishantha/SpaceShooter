@@ -46,6 +46,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         self.physicsWorld.contactDelegate = self
         
         scoreLabel = SKLabelNode(text: "Score: 0")
+        scoreLabel.position = CGPoint{x: , y: )
         
         
     }
